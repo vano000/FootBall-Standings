@@ -1,4 +1,4 @@
-Link to the Project : footballstanding.ivanbaranov.com
+<p>Link to the Project : footballstanding.ivanbaranov.com</p>
 
 A single page application that fetches API data about football standings . Build on React.js using Axios for API data fetch.
 
