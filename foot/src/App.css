@@ -1,0 +1,82 @@
+body {
+    margin: 10px;
+    padding: 0;
+    background-color: #fbfcfa;
+    color: #191923;
+    font-family: 'Barlow Condensed', sans-serif;
+    ;
+}
+
+.standings-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: #e7ebe5 1px solid;
+    -webkit-box-shadow: 0px 0px 24px 10px rgba(0, 0, 0, 0.21);
+    box-shadow: 0px 0px 24px 10px rgba(0, 0, 0, 0.21);
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+#select-league {
+    border-radius: 4px;
+    height: 30px;
+    border: 1px black solid;
+}
+
+#select-year {
+    border-radius: 4px;
+    height: 30px;
+    border: 1px black solid;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: #e7ebe5 1px solid;
+    -webkit-box-shadow: 5px 6px 10px -4px rgba(0, 0, 0, 0.53);
+    box-shadow: 5px 6px 10px -4px rgba(0, 0, 0, 0.53);
+}
+
+img {
+    width: 300px;
+}
+
+p {
+    margin: 10px;
+}
+
+h2 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+}
+
+h4 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 367px) {
+    h1 {
+        width: 270px;
+    }
+    img {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 313px) {
+    h1 {
+        width: 200px;
+    }
+    img {
+        width: 150px;
+    }
+}
